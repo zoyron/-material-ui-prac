@@ -1,10 +1,11 @@
-body {
-  background-color: aqua;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 h1 {
   align-content: center;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  background-color: #fafafa;
+  height: 50vh;
+  align-items: center;
 }
