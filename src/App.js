@@ -9,7 +9,7 @@ const App = () => {
       </Button>
       <Button
         variant="outlined"
-        color="secondary"
+        color="secondary.dark"
         disableFocusRippleRipple="true"
       >
         Default outlined button
