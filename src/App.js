@@ -1,9 +1,10 @@
 import React from "react";
-import { Button } from "@material-ui/core";
+import { Button, Typography } from "@material-ui/core";
 import "./styles.css";
 const App = () => {
   return (
     <div className="App">
+      <Typography variant="h1">Material ui app</Typography>
       <Button variant="contained" color="primary">
         Default contained button
       </Button>
