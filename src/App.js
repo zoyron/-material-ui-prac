@@ -1,6 +1,7 @@
 import React from "react";
 import { Typography, Grid } from "@material-ui/core";
 import Header from "./Header";
+import Content from "./Content";
 
 const App = () => {
   return (
@@ -11,7 +12,7 @@ const App = () => {
       <Grid item container>
         <Grid item xs={0} sm={2} />
         <Grid item xs={12} sm={8}>
-          CONTENT
+          <Content />
         </Grid>
         <Grid item xs={0} sm={2} />
       </Grid>
