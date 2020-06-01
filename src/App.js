@@ -14,6 +14,9 @@ const App = () => {
       <Button color="primary" variant="contained">
         new button
       </Button>
+      <Button color="secondary" variant="contained">
+        new button
+      </Button>
       <Typography>this is my typo graphy</Typography>
     </div>
   );
