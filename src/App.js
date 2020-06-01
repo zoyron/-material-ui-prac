@@ -1,18 +1,20 @@
 import React from "react";
-import { Typography, Button, createMuiTheme } from "@material-ui/core";
-import PublishIcon from "@material-ui/icons/Publish";
+import { Typography, Button, makeStyles } from "@material-ui/core";
 
+const useStyles = makeStyles({
+  root: {
+    height: "100vh",
+    background: "linear-gradient(45deg, red 30%, pink 90%)",
+  },
+});
 const App = () => {
+  const classes = useStyles();
   return (
-    <div>
-      <h1>material ui detailed study</h1>
-      <Typography variant="h4" color="textSecondary">
-        I like this new font
-      </Typography>
-      <p>obviously, the new font of vs code, not of the browser</p>
-      <Button variant="outlined" startIcon={<PublishIcon />}>
-        Upload Files
+    <div className={classes.root}>
+      <Button color="primary" variant="contained">
+        new button
       </Button>
+      <Typography>this is my typo graphy</Typography>
     </div>
   );
 };
